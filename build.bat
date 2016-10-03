@@ -60,8 +60,8 @@ set CLASSPATH=%CLASSPATH%;%ORACLE_HOME%/jdbc/lib/classes12.zip
 :oracleHomeNotSet
 
 rem To use MySQL, uncomment the next 2 lines and modify appropriately
-rem set MYSQL_HOME=%HOME_DRIVE%:/MySQL
-rem set CLASSPATH=%CLASSPATH%;%MYSQL_HOME%/lib/mm.mysql-2.0.4-bin.jar
+set MYSQL_HOME=%HOME_DRIVE%:/usr/local/mysql-5.6.27-winx64
+rem set CLASSPATH=%CLASSPATH%;C:\Users\Jeffrey\Downloads\mysql-connector-java-5.1.37\mysql-connector-java-5.1.37\mysql-connector-java-5.1.37-bin.jar
 
 rem To use Weblogic, uncomment the next line and modify appropriately.
 rem set WEBLOGIC_HOME=%HOME_DRIVE%:/bea/wlserver6.1

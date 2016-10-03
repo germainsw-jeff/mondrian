@@ -120,7 +120,10 @@ public class MySqlDialect extends JdbcDialectImpl {
             // mm.mysql.2.0.4 driver lies. We know better.
             quoteIdentifierString = "`";
         }
-        return quoteIdentifierString;
+        
+        // 10/28/2015 - Jeff testing MemSQL
+        return null;
+//        return quoteIdentifierString;
     }
 
     protected boolean deduceSupportsSelectNotInGroupBy(Connection connection)
